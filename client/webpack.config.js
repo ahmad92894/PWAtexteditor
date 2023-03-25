@@ -17,7 +17,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Contact Cards'
+        title: 'PWAtexteditor'
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
